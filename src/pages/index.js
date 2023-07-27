@@ -35,16 +35,16 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <div className={styles.titleBox}>
-            <h1 className={styles.title}>ChatGPT Proxy</h1>
+            <h1 className={styles.title}>ALIYUN TONGYI QIANWEN</h1>
             <h1
               className={styles.titleMask}
               style={copied ? { height: 0 } : {}}
             >
-              ChatGPT Proxy
+              ALIYUN - TONGYI QIANWEN | 通义大模型
             </h1>
           </div>
         </div>
-        <div className={styles.content}>
+        {/* <div className={styles.content}>
           <h3>Your proxy link:</h3>
           <p>
             <code className={styles.code}>{link}</code>
@@ -100,16 +100,16 @@ export default function Home() {
               See more
             </a>
           </p>
-        </div>
+        </div> */}
         <footer className={styles.footer}>
-          {"yuanx@ "}
-          <a href="https://github.com/imyuanx" target="_blank">
-            GitHub
+          {"aliyun"}
+          <a href="https://tongyi.aliyun.com/" target="_blank">
+          aliyun
           </a>
-          {" | "}
-          <a href="https://twitter.com/imyuanx" target="_blank">
-            Twitter
-          </a>
+          {/* {" | "}
+          <a href="https://tongyi.aliyun.com/" target="_blank">
+          aliyun
+          </a> */}
         </footer>
       </main>
       <ToastContainer />
